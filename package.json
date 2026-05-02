@@ -1,0 +1,18 @@
+{
+  "name": "booking-scraper",
+  "version": "1.0.0",
+  "description": "Booking.com scraper con Puppeteer — busca hoteles por destino, fechas y precio",
+  "main": "scraper.js",
+  "scripts": {
+    "search": "node scraper.js",
+    "start": "node scraper.js --destination \"San Juan\""
+  },
+  "keywords": ["booking", "scraper", "puppeteer", "hotels", "puerto-rico"],
+  "license": "MIT",
+  "dependencies": {
+    "minimist": "^1.2.8",
+    "puppeteer": "^24.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
